@@ -1,0 +1,62 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/*/build/
+
+# Local configuration
+local.properties
+gradle.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.oat
+*.art
+
+# Generated files
+generated/
+*/generated/
+*/*/generated/
+
+# Captured test output
+captures/
+
+# Logs
+*.log
+
+# Release keystore (keep secure!)
+*.jks
+*.keystore
+
+# Google Services (if used)
+google-services.json
+
+# Lint
+lint-results-*.html
+
+# Build outputs
+app/build/
+app/release/
+app/debug/
+
+# Gradle wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Compose compiler cache
+.compose/

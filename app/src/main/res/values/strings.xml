@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Pickle Assistant</string>
+    <string name="notification_listener_label">Pickle Notification Listener</string>
+    
+    <!-- Permissions -->
+    <string name="permission_record_audio">Diperlukan untuk mendengar perintah suara</string>
+    <string name="permission_post_notifications">Diperlukan untuk menampilkan notifikasi balasan</string>
+    <string name="permission_notification_listener">Diperlukan untuk membaca notifikasi WhatsApp, Telegram, dll</string>
+    
+    <!-- UI Strings -->
+    <string name="start_listening">Mulai Mendengar</string>
+    <string name="stop_listening">Berhenti Mendengar</string>
+    <string name="listening">Mendengar...</string>
+    <string name="tap_to_speak">Tap untuk bicara</string>
+    <string name="speak_now">Bicara sekarang</string>
+    
+    <!-- Status -->
+    <string name="status_ready">Siap</string>
+    <string name="status_listening">Mendengar...</string>
+    <string name="status_processing">Memproses...</string>
+    <string name="status_speaking">Berbicara...</string>
+    <string name="status_error">Error</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_api_section">Konfigurasi LLM</string>
+    <string name="settings_voice_section">Pengaturan Suara</string>
+    <string name="settings_apps_section">Aplikasi Target</string>
+    <string name="settings_behavior_section">Perilaku</string>
+    <string name="settings_about_section">Tentang</string>
+    
+    <string name="api_key_label">API Key</string>
+    <string name="api_key_hint">nvapi-... atau sk-...</string>
+    <string name="base_url_label">Base URL</string>
+    <string name="base_url_hint">https://integrate.api.nvidia.com/v1</string>
+    <string name="model_label">Model</string>
+    <string name="model_hint">nvidia/nemotron-3-ultra-550b-a55b</string>
+    <string name="protocol_label">Protocol</string>
+    
+    <string name="voice_gender_label">Jenis Suara</string>
+    <string name="voice_gender_female">Perempuan</string>
+    <string name="voice_gender_male">Laki-laki</string>
+    <string name="voice_selection_label">Pilih Suara</string>
+    <string name="language_label">Bahasa Pengenalan</string>
+    <string name="offline_stt_label">Prefer Offline STT</string>
+    <string name="offline_stt_desc">Gunakan pengenalan suara offline jika tersedia</string>
+    
+    <string name="target_apps_label">Aplikasi yang Dipantau</string>
+    <string name="target_apps_desc">Pilih aplikasi yang notifikasinya akan dibaca Pickle</string>
+    
+    <string name="auto_confirm_label">Kirim Otomatis (Tanpa Konfirmasi)</string>
+    <string name="auto_confirm_warning">TIDAK DIREKOMENDASIKAN: Balasan akan dikirim langsung tanpa konfirmasi suara</string>
+    <string name="notification_service_label">Aktifkan Layanan Notifikasi</string>
+    
+    <string name="test_connection">Test Koneksi API</string>
+    <string name="test_tts">Test Suara</string>
+    <string name="test_send">Test Kirim Balasan</string>
+    
+    <string name="permission_required">Izin diperlukan</string>
+    <string name="permission_notification_listener_desc">Pickle butuh akses notifikasi untuk membaca pesan WhatsApp, Telegram, SMS, dll. Buka pengaturan untuk mengaktifkan.</string>
+    <string name="open_settings">Buka Pengaturan</string>
+    <string name="cancel">Batal</string>
+    
+    <!-- Errors -->
+    <string name="error_no_api_key">API Key belum dikonfigurasi. Buka Pengaturan untuk mengatur.</string>
+    <string name="error_network">Error jaringan. Periksa koneksi internet.</string>
+    <string name="error_no_match">Tidak mendengar apa-apa. Coba lagi.</string>
+    <string name="error_timeout">Waktu habis. Tidak ada suara terdeteksi.</string>
+    <string name="error_permission">Izin mikrofon ditolak.</string>
+    <string name="error_tts_not_available">TTS tidak tersedia di perangkat ini.</string>
+    <string name="error_notification_not_found">Notifikasi tidak ditemukan (mungkin sudah dihapus).</string>
+    <string name="error_no_reply_action">Notifikasi ini tidak mendukung balas inline.</string>
+    
+    <!-- Confirmation -->
+    <string name="confirm_send">Kirim balasan ke %1$s: "%2$s". Kirim?</string>
+    <string name="confirm_yes">Ya, kirim</string>
+    <string name="confirm_no">Tidak, batal</string>
+    <string name="sent_success">Balasan terkirim</string>
+    <string name="sent_failed">Gagal kirim balasan</string>
+    <string name="cancelled">Dibatalkan</string>
+    
+    <!-- Accessibility -->
+    <string name="mic_button_desc">Tombol mikrofon untuk mulai/berhenti mendengar</string>
+    <string name="settings_button_desc">Buka pengaturan</string>
+    <string name="test_tts_desc">Putar tes text-to-speech</string>
+</resources>
